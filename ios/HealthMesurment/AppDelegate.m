@@ -141,9 +141,16 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   dispatch_async(dispatch_get_main_queue(), ^{
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"main" bundle:nil];
     UIViewController *loginViewController = [storyboard instantiateViewControllerWithIdentifier:@"DashboardViewController"];
-    self.window.rootViewController = loginViewController;
+    [self.window.rootViewController presentViewController:loginViewController animated:true completion:nil];
+//    self.window.rootViewController = loginViewController;
 //    [self.navigate presentViewController:loginViewController animated:true completion:nil];
   });
+
+}
+
+- (void)goToReactNative {
+
+  [self.window.rootViewController dismissViewControllerAnimated:TRUE completion:nil];
 
 }
 

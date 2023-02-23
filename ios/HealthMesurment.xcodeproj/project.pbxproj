@@ -541,7 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emed.HealthDoctor;
 				PRODUCT_NAME = HealthMesurment;
 				PROVISIONING_PROFILE_SPECIFIER = HealthDocDevProfile;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/emedstore/ReactNativeProjects/HealthMeasurement/HealthMesurment/ios/HealthMesurment/HealthMesurment-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthMesurment/HealthMesurment-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,7 +571,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emed.HealthDoctor;
 				PRODUCT_NAME = HealthMesurment;
 				PROVISIONING_PROFILE_SPECIFIER = HealthDocDevProfile;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/emedstore/ReactNativeProjects/HealthMeasurement/HealthMesurment/ios/HealthMesurment/HealthMesurment-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthMesurment/HealthMesurment-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

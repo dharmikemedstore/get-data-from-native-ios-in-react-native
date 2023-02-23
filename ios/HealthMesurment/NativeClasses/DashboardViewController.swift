@@ -25,7 +25,10 @@ import UIKit
   
   @IBAction func btnClick() {
 
-    self.navigationController?.popToRootViewController(animated: true)
+    if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            appDelegate.goToReactNative()
+    }
+    
 
   }
   
