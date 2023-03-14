@@ -55,9 +55,9 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   }
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-  UIViewController *rootViewController = [UIViewController new];
-  rootViewController.view = rootView;
-  self.window.rootViewController = rootViewController;
+  self.mainRootView = [UIViewController new];
+  self.mainRootView.view = rootView;
+  self.window.rootViewController = self.mainRootView;
   [self.window makeKeyAndVisible];
   return YES;
 }
@@ -135,23 +135,21 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 // this method will be called from the RCTBridge
 - (void)goToRegisterView:(NSString *)doctor_name :(NSString *)user_name :(NSString *)identity :(NSString *)room :(NSString *)token :(NSString *)time_slot_duration {
-//  NSLog(@"RN binding - Native View - MyViewController.swift - Load From "main" storyboard);
-  NSLog(@"Hello Native View");
-  
+  NSLog(@"Hello Native View = %@", doctor_name);
   dispatch_async(dispatch_get_main_queue(), ^{
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"main" bundle:nil];
-    UIViewController *loginViewController = [storyboard instantiateViewControllerWithIdentifier:@"DashboardViewController"];
-    [self.window.rootViewController presentViewController:loginViewController animated:true completion:nil];
-//    self.window.rootViewController = loginViewController;
-//    [self.navigate presentViewController:loginViewController animated:true completion:nil];
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"main" bundle:nil];
+    self.dashboardVCROOT = [story instantiateViewControllerWithIdentifier:@"DashboardViewController"];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.dashboardVCROOT];
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
   });
-
 }
 
 - (void)goToReactNative {
-
-  [self.window.rootViewController dismissViewControllerAnimated:TRUE completion:nil];
-
+//  [self.window.rootViewController dismissViewControllerAnimated:true completion:nil];
+  self.dashboardVCROOT = nil;
+  self.window.rootViewController = self.mainRootView;
+  [self.window makeKeyAndVisible];
 }
 
 @end

@@ -15,5 +15,11 @@ class SecondViewController: UIViewController {
       
     }
     
+  
+  @IBAction func btnNext() {
+    
+    self.navigationController?.popViewController(animated: true)
+
+  }
 
 }

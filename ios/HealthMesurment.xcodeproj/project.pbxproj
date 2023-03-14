@@ -11,13 +11,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1609D9E8D5B5D16C363D4464 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DF4E6CDE3F8ADC818436C9 /* libPods-HealthMesurment-HealthMesurmentTests.a */; };
 		1CDA653829127AA9002725C5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA653729127AA9002725C5 /* SecondViewController.swift */; };
+		1CDDAF1929C0A08500D87BD5 /* ChangeViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDAF1729C0A08500D87BD5 /* ChangeViewBridge.m */; };
 		1CF9D57D29123F74001CDC6E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9D57C29123F74001CDC6E /* DashboardViewController.swift */; };
 		1CF9D57F29123F87001CDC6E /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9D57E29123F87001CDC6E /* main.storyboard */; };
-		1CF9D58329124007001CDC6E /* ChangeViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9D58229124007001CDC6E /* ChangeViewBridge.m */; };
+		69086A87C82896425A88906A /* libPods-HealthMesurment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17392C1F50E11B086E41BF06 /* libPods-HealthMesurment.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9FE6482CAE5DE9EC6FFA53F5 /* libPods-HealthMesurment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F925341F4104BE2414F0595 /* libPods-HealthMesurment.a */; };
+		C4E97119866CC46466956496 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C984262E5DD3116BA9547A6 /* libPods-HealthMesurment-HealthMesurmentTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +34,25 @@
 		00E356EE1AD99517003FC87E /* HealthMesurmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMesurmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HealthMesurmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthMesurmentTests.m; sourceTree = "<group>"; };
+		04053E097E6AE5BF69DB379F /* Pods-HealthMesurment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HealthMesurment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthMesurment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17392C1F50E11B086E41BF06 /* libPods-HealthMesurment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDA653729127AA9002725C5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1CDDAF1729C0A08500D87BD5 /* ChangeViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeViewBridge.m; sourceTree = "<group>"; };
+		1CDDAF1829C0A08500D87BD5 /* ChangeViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeViewBridge.h; sourceTree = "<group>"; };
 		1CF9D57B29123F73001CDC6E /* HealthMesurment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthMesurment-Bridging-Header.h"; sourceTree = "<group>"; };
 		1CF9D57C29123F74001CDC6E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		1CF9D57E29123F87001CDC6E /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
-		1CF9D58129124007001CDC6E /* ChangeViewBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeViewBridge.h; sourceTree = "<group>"; };
-		1CF9D58229124007001CDC6E /* ChangeViewBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeViewBridge.m; sourceTree = "<group>"; };
-		1F925341F4104BE2414F0595 /* libPods-HealthMesurment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BDBAB8864A48F6FDBA669D7 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EAF55F960247FE8CB124D4C /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		620C35C550696221464DCFD9 /* Pods-HealthMesurment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.release.xcconfig"; sourceTree = "<group>"; };
+		21E3490D90BF76E56FA39914 /* Pods-HealthMesurment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.debug.xcconfig"; sourceTree = "<group>"; };
+		6C984262E5DD3116BA9547A6 /* libPods-HealthMesurment-HealthMesurmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment-HealthMesurmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757A93757185F875A35ECDB1 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D7DF4E6CDE3F8ADC818436C9 /* libPods-HealthMesurment-HealthMesurmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment-HealthMesurmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F8FBC5754B6E9BCF89B734 /* Pods-HealthMesurment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.debug.xcconfig"; sourceTree = "<group>"; };
+		91AAC5211EF6D6DCC65D6BA4 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1609D9E8D5B5D16C363D4464 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */,
+				C4E97119866CC46466956496 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE6482CAE5DE9EC6FFA53F5 /* libPods-HealthMesurment.a in Frameworks */,
+				69086A87C82896425A88906A /* libPods-HealthMesurment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +96,10 @@
 		13B07FAE1A68108700A75B9A /* HealthMesurment */ = {
 			isa = PBXGroup;
 			children = (
+				1CDDAF1629C0A08500D87BD5 /* ChangeViewBridge */,
 				1CF9D57A29123F57001CDC6E /* NativeClasses */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				1CF9D58029123FDF001CDC6E /* ChangeView */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -107,6 +107,15 @@
 				1CF9D57B29123F73001CDC6E /* HealthMesurment-Bridging-Header.h */,
 			);
 			path = HealthMesurment;
+			sourceTree = "<group>";
+		};
+		1CDDAF1629C0A08500D87BD5 /* ChangeViewBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1CDDAF1729C0A08500D87BD5 /* ChangeViewBridge.m */,
+				1CDDAF1829C0A08500D87BD5 /* ChangeViewBridge.h */,
+			);
+			path = ChangeViewBridge;
 			sourceTree = "<group>";
 		};
 		1CF9D57A29123F57001CDC6E /* NativeClasses */ = {
@@ -119,21 +128,12 @@
 			path = NativeClasses;
 			sourceTree = "<group>";
 		};
-		1CF9D58029123FDF001CDC6E /* ChangeView */ = {
-			isa = PBXGroup;
-			children = (
-				1CF9D58129124007001CDC6E /* ChangeViewBridge.h */,
-				1CF9D58229124007001CDC6E /* ChangeViewBridge.m */,
-			);
-			path = ChangeView;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1F925341F4104BE2414F0595 /* libPods-HealthMesurment.a */,
-				D7DF4E6CDE3F8ADC818436C9 /* libPods-HealthMesurment-HealthMesurmentTests.a */,
+				17392C1F50E11B086E41BF06 /* libPods-HealthMesurment.a */,
+				6C984262E5DD3116BA9547A6 /* libPods-HealthMesurment-HealthMesurmentTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,10 +172,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D7F8FBC5754B6E9BCF89B734 /* Pods-HealthMesurment.debug.xcconfig */,
-				620C35C550696221464DCFD9 /* Pods-HealthMesurment.release.xcconfig */,
-				2BDBAB8864A48F6FDBA669D7 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */,
-				5EAF55F960247FE8CB124D4C /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */,
+				21E3490D90BF76E56FA39914 /* Pods-HealthMesurment.debug.xcconfig */,
+				04053E097E6AE5BF69DB379F /* Pods-HealthMesurment.release.xcconfig */,
+				757A93757185F875A35ECDB1 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */,
+				91AAC5211EF6D6DCC65D6BA4 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -187,12 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HealthMesurmentTests" */;
 			buildPhases = (
-				DADA442254D7DD8F3E59AF80 /* [CP] Check Pods Manifest.lock */,
+				3A1A1CAF01BF0EAFF3860F6F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				0A55D251198B31B370DA1A19 /* [CP] Embed Pods Frameworks */,
-				B3D3D2B20378818494629BA4 /* [CP] Copy Pods Resources */,
+				312A52D26C78933100A8D071 /* [CP] Embed Pods Frameworks */,
+				E6B05F56B689BC9F247F7F1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,14 +208,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HealthMesurment" */;
 			buildPhases = (
-				19C6C7DCF4EA00E0E4900A8B /* [CP] Check Pods Manifest.lock */,
+				BC41246F8FB07A852530684D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8DD8B07534A6D92365FB9934 /* [CP] Embed Pods Frameworks */,
-				D8AE77D540042BDA3A7C323E /* [CP] Copy Pods Resources */,
+				3E0FB95526C1BEA7CF5FC157 /* [CP] Embed Pods Frameworks */,
+				9AEA2A7BB13ED6B830050E26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,7 +299,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0A55D251198B31B370DA1A19 /* [CP] Embed Pods Frameworks */ = {
+		312A52D26C78933100A8D071 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,7 +316,63 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		19C6C7DCF4EA00E0E4900A8B /* [CP] Check Pods Manifest.lock */ = {
+		3A1A1CAF01BF0EAFF3860F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthMesurment-HealthMesurmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0FB95526C1BEA7CF5FC157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEA2A7BB13ED6B830050E26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC41246F8FB07A852530684D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,24 +394,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8DD8B07534A6D92365FB9934 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3D3D2B20378818494629BA4 /* [CP] Copy Pods Resources */ = {
+		E6B05F56B689BC9F247F7F1C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,45 +409,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D8AE77D540042BDA3A7C323E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DADA442254D7DD8F3E59AF80 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthMesurment-HealthMesurmentTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -449,7 +449,7 @@
 				1CF9D57D29123F74001CDC6E /* DashboardViewController.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				1CDA653829127AA9002725C5 /* SecondViewController.swift in Sources */,
-				1CF9D58329124007001CDC6E /* ChangeViewBridge.m in Sources */,
+				1CDDAF1929C0A08500D87BD5 /* ChangeViewBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +466,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BDBAB8864A48F6FDBA669D7 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */;
+			baseConfigurationReference = 757A93757185F875A35ECDB1 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,7 +494,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EAF55F960247FE8CB124D4C /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */;
+			baseConfigurationReference = 91AAC5211EF6D6DCC65D6BA4 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,7 +519,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F8FBC5754B6E9BCF89B734 /* Pods-HealthMesurment.debug.xcconfig */;
+			baseConfigurationReference = 21E3490D90BF76E56FA39914 /* Pods-HealthMesurment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -528,10 +528,15 @@
 				DEVELOPMENT_TEAM = M24BL8VNB2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HealthMesurment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/HealthMesurment",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -550,7 +555,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 620C35C550696221464DCFD9 /* Pods-HealthMesurment.release.xcconfig */;
+			baseConfigurationReference = 04053E097E6AE5BF69DB379F /* Pods-HealthMesurment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -558,10 +563,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M24BL8VNB2;
 				INFOPLIST_FILE = HealthMesurment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/HealthMesurment",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -626,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -691,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
