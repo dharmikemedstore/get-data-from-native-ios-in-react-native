@@ -15,9 +15,9 @@
 		1CDDAF1929C0A08500D87BD5 /* ChangeViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDAF1729C0A08500D87BD5 /* ChangeViewBridge.m */; };
 		1CF9D57D29123F74001CDC6E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9D57C29123F74001CDC6E /* DashboardViewController.swift */; };
 		1CF9D57F29123F87001CDC6E /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9D57E29123F87001CDC6E /* main.storyboard */; };
-		69086A87C82896425A88906A /* libPods-HealthMesurment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17392C1F50E11B086E41BF06 /* libPods-HealthMesurment.a */; };
+		7B34743934A32435CFCCD64F /* libPods-HealthMesurment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3E8A8B59DB5253472BA695 /* libPods-HealthMesurment.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C4E97119866CC46466956496 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C984262E5DD3116BA9547A6 /* libPods-HealthMesurment-HealthMesurmentTests.a */; };
+		D096E3928CD96874730556C8 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1C8099E431E8BD1C8879FB /* libPods-HealthMesurment-HealthMesurmentTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +34,26 @@
 		00E356EE1AD99517003FC87E /* HealthMesurmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMesurmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HealthMesurmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthMesurmentTests.m; sourceTree = "<group>"; };
-		04053E097E6AE5BF69DB379F /* Pods-HealthMesurment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.release.xcconfig"; sourceTree = "<group>"; };
+		0F0B57E28301A377EEFB7A25 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HealthMesurment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthMesurment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		17392C1F50E11B086E41BF06 /* libPods-HealthMesurment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDA653729127AA9002725C5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1CDDAF1729C0A08500D87BD5 /* ChangeViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeViewBridge.m; sourceTree = "<group>"; };
 		1CDDAF1829C0A08500D87BD5 /* ChangeViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeViewBridge.h; sourceTree = "<group>"; };
 		1CF9D57B29123F73001CDC6E /* HealthMesurment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthMesurment-Bridging-Header.h"; sourceTree = "<group>"; };
 		1CF9D57C29123F74001CDC6E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		1CF9D57E29123F87001CDC6E /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
-		21E3490D90BF76E56FA39914 /* Pods-HealthMesurment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.debug.xcconfig"; sourceTree = "<group>"; };
-		6C984262E5DD3116BA9547A6 /* libPods-HealthMesurment-HealthMesurmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment-HealthMesurmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		757A93757185F875A35ECDB1 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1C8099E431E8BD1C8879FB /* libPods-HealthMesurment-HealthMesurmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment-HealthMesurmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3E8A8B59DB5253472BA695 /* libPods-HealthMesurment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		91AAC5211EF6D6DCC65D6BA4 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A97179568DD2E2108E3AED9 /* Pods-HealthMesurment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.release.xcconfig"; sourceTree = "<group>"; };
+		BADD72E9732151C640A786D9 /* Pods-HealthMesurment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2ADE64EC6AE9DA0C4E76A22 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E97119866CC46466956496 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */,
+				D096E3928CD96874730556C8 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69086A87C82896425A88906A /* libPods-HealthMesurment.a in Frameworks */,
+				7B34743934A32435CFCCD64F /* libPods-HealthMesurment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				17392C1F50E11B086E41BF06 /* libPods-HealthMesurment.a */,
-				6C984262E5DD3116BA9547A6 /* libPods-HealthMesurment-HealthMesurmentTests.a */,
+				6E3E8A8B59DB5253472BA695 /* libPods-HealthMesurment.a */,
+				3F1C8099E431E8BD1C8879FB /* libPods-HealthMesurment-HealthMesurmentTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,10 +172,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21E3490D90BF76E56FA39914 /* Pods-HealthMesurment.debug.xcconfig */,
-				04053E097E6AE5BF69DB379F /* Pods-HealthMesurment.release.xcconfig */,
-				757A93757185F875A35ECDB1 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */,
-				91AAC5211EF6D6DCC65D6BA4 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */,
+				BADD72E9732151C640A786D9 /* Pods-HealthMesurment.debug.xcconfig */,
+				8A97179568DD2E2108E3AED9 /* Pods-HealthMesurment.release.xcconfig */,
+				F2ADE64EC6AE9DA0C4E76A22 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */,
+				0F0B57E28301A377EEFB7A25 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -187,12 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HealthMesurmentTests" */;
 			buildPhases = (
-				3A1A1CAF01BF0EAFF3860F6F /* [CP] Check Pods Manifest.lock */,
+				39475BACE8CE6B2986C3FC50 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				312A52D26C78933100A8D071 /* [CP] Embed Pods Frameworks */,
-				E6B05F56B689BC9F247F7F1C /* [CP] Copy Pods Resources */,
+				4A60322DFE08596BAE72973E /* [CP] Embed Pods Frameworks */,
+				9B26B79DCA122AD09D87DEF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,14 +208,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HealthMesurment" */;
 			buildPhases = (
-				BC41246F8FB07A852530684D /* [CP] Check Pods Manifest.lock */,
+				A5C7D55B9A4E75BAD102E68E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3E0FB95526C1BEA7CF5FC157 /* [CP] Embed Pods Frameworks */,
-				9AEA2A7BB13ED6B830050E26 /* [CP] Copy Pods Resources */,
+				4D41C30FF77ACDC8E1BA5371 /* [CP] Embed Pods Frameworks */,
+				90A6FABFC845BE70BA35216A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,24 +299,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		312A52D26C78933100A8D071 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A1A1CAF01BF0EAFF3860F6F /* [CP] Check Pods Manifest.lock */ = {
+		39475BACE8CE6B2986C3FC50 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +321,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E0FB95526C1BEA7CF5FC157 /* [CP] Embed Pods Frameworks */ = {
+		4A60322DFE08596BAE72973E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D41C30FF77ACDC8E1BA5371 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +355,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9AEA2A7BB13ED6B830050E26 /* [CP] Copy Pods Resources */ = {
+		90A6FABFC845BE70BA35216A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +372,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC41246F8FB07A852530684D /* [CP] Check Pods Manifest.lock */ = {
+		9B26B79DCA122AD09D87DEF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C7D55B9A4E75BAD102E68E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,23 +409,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6B05F56B689BC9F247F7F1C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -466,7 +466,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 757A93757185F875A35ECDB1 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */;
+			baseConfigurationReference = F2ADE64EC6AE9DA0C4E76A22 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,7 +494,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91AAC5211EF6D6DCC65D6BA4 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */;
+			baseConfigurationReference = 0F0B57E28301A377EEFB7A25 /* Pods-HealthMesurment-HealthMesurmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,7 +519,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21E3490D90BF76E56FA39914 /* Pods-HealthMesurment.debug.xcconfig */;
+			baseConfigurationReference = BADD72E9732151C640A786D9 /* Pods-HealthMesurment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -555,7 +555,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04053E097E6AE5BF69DB379F /* Pods-HealthMesurment.release.xcconfig */;
+			baseConfigurationReference = 8A97179568DD2E2108E3AED9 /* Pods-HealthMesurment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
