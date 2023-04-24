@@ -41,8 +41,12 @@ protocol Messageprotocol {
     defaults.setValue(self.textValue, forKey: "textValue")
     defaults.synchronize()
     
-    delegate.passDataFromNativeToRN(count: 15000)
+//    delegate?.passDataFromNativeToRN(count: 10)
 //    delegate?.passDataFromNativeToRN(count: 15000)
+    
+    let msg = Message()
+    msg.passDataFromNativeToRN(count: 15000)
+    
     if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
       appDelegate.goToReactNative()
     }

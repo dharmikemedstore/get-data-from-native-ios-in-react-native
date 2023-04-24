@@ -82,7 +82,7 @@ class Message: RCTEventEmitter,Messageprotocol {
   }
   
   @objc
-  func passDataFromNativeToRN(count:Int)  -> Void{
+  func passDataFromNativeToRN(count:Int) {
       self.sendEvent(withName: self.C_COUNT, body: ["count": count])
   }
   
