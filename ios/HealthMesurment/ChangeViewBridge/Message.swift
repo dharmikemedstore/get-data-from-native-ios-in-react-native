@@ -52,12 +52,18 @@ import RxSwift
 //}
 
 @objc(Message)
-class Message: RCTEventEmitter,Messageprotocol {
+class Message: RCTEventEmitter {
   let E_UNREAD_ERROR: String = "E_UNREAD_ERROR";
   let C_UNREAD_EVENT: String = "EventUnread";
   let C_COUNT: String = "Count";
   var disposableEmitter: Disposable? = nil;
   
+  public static var shared:Message?
+
+  override init() {
+      super.init()
+    Message.shared = self
+  }
   
   @objc
   func getUnreadCount(
@@ -102,5 +108,4 @@ class Message: RCTEventEmitter,Messageprotocol {
     disposableEmitter = nil
   }
 }
-
 

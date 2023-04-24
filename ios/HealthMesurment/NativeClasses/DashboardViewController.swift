@@ -8,16 +8,11 @@
 import Foundation
 import UIKit
 
-protocol Messageprotocol {
-  func passDataFromNativeToRN(count:Int)
-}
-
 @objc class DashboardViewController: UIViewController {
-
+  
   @IBOutlet var btnBack: UIButton!
   @IBOutlet var txt: UITextField!
   @objc var textValue = ""
-  var delegate: Messageprotocol? = nil
   
   var passedData: String?
   
@@ -40,12 +35,8 @@ protocol Messageprotocol {
     let defaults = UserDefaults.standard
     defaults.setValue(self.textValue, forKey: "textValue")
     defaults.synchronize()
-    
-//    delegate?.passDataFromNativeToRN(count: 10)
-//    delegate?.passDataFromNativeToRN(count: 15000)
-    
-    let msg = Message()
-    msg.passDataFromNativeToRN(count: 15000)
+
+    Message.shared?.passDataFromNativeToRN(count: 150000)
     
     if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
       appDelegate.goToReactNative()

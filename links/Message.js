@@ -8,8 +8,6 @@ export const startListening = Message.startListening;
 
 export const stopListening = Message.stopListening;
 
-// export const passDataFromNativeToRN = Message.passDataFromNativeToRN;
-
 const eventEmitter = new NativeEventEmitter(Message);
 
 export const addUnreadListener = callback => eventEmitter.addListener(Message.EventUnread, callback);

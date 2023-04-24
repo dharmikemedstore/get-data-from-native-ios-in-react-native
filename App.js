@@ -17,10 +17,10 @@ const HelloWorldApp = ({images}) => {
       console.log('getUnreadCount => ', count);
     });
     addUnreadListener(({count}) => {
-      console.log('count from native => ', count);
+      console.log('addUnreadListener => ', count);
     });
     addCountListener(({count}) => {
-      console.log('count from native => ', count);
+      console.log('addCountListener => ', count);
     });
     return () => {
       // Anything in here is fired on component unmount.
