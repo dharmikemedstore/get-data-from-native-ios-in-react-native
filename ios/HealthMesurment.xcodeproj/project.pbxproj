@@ -17,6 +17,8 @@
 		1CF9D57F29123F87001CDC6E /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9D57E29123F87001CDC6E /* main.storyboard */; };
 		7B34743934A32435CFCCD64F /* libPods-HealthMesurment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3E8A8B59DB5253472BA695 /* libPods-HealthMesurment.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B33BF79029F61F190020653F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BF78F29F61F190020653F /* Message.swift */; };
+		B33BF79229F61F910020653F /* MessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BF79129F61F910020653F /* MessageModule.m */; };
 		D096E3928CD96874730556C8 /* libPods-HealthMesurment-HealthMesurmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1C8099E431E8BD1C8879FB /* libPods-HealthMesurment-HealthMesurmentTests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		6E3E8A8B59DB5253472BA695 /* libPods-HealthMesurment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthMesurment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A97179568DD2E2108E3AED9 /* Pods-HealthMesurment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.release.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.release.xcconfig"; sourceTree = "<group>"; };
+		B33BF78F29F61F190020653F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		B33BF79129F61F910020653F /* MessageModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageModule.m; sourceTree = "<group>"; };
 		BADD72E9732151C640A786D9 /* Pods-HealthMesurment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment/Pods-HealthMesurment.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F2ADE64EC6AE9DA0C4E76A22 /* Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthMesurment-HealthMesurmentTests/Pods-HealthMesurment-HealthMesurmentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 			children = (
 				1CDDAF1729C0A08500D87BD5 /* ChangeViewBridge.m */,
 				1CDDAF1829C0A08500D87BD5 /* ChangeViewBridge.h */,
+				B33BF78F29F61F190020653F /* Message.swift */,
+				B33BF79129F61F910020653F /* MessageModule.m */,
 			);
 			path = ChangeViewBridge;
 			sourceTree = "<group>";
@@ -448,8 +454,10 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				1CF9D57D29123F74001CDC6E /* DashboardViewController.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B33BF79029F61F190020653F /* Message.swift in Sources */,
 				1CDA653829127AA9002725C5 /* SecondViewController.swift in Sources */,
 				1CDDAF1929C0A08500D87BD5 /* ChangeViewBridge.m in Sources */,
+				B33BF79229F61F910020653F /* MessageModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

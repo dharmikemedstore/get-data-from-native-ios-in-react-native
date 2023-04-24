@@ -1,9 +1,32 @@
 import React, {useEffect} from 'react';
 import {Text, View, TouchableOpacity, NativeModules} from 'react-native';
+import {
+  addUnreadListener,
+  startListening,
+  stopListening,
+  getUnreadCount,
+  addCountListener,
+} from './links/Message';
 
 const HelloWorldApp = ({images}) => {
   useEffect(() => {
     console.log('HELLO REACT NATIVE ===>', images);
+    startListening();
+
+    getUnreadCount().then(count => {
+      console.log('getUnreadCount => ', count);
+    });
+    addUnreadListener(({count}) => {
+      console.log('count from native => ', count);
+    });
+    addCountListener(({count}) => {
+      console.log('count from native => ', count);
+    });
+    return () => {
+      // Anything in here is fired on component unmount.
+      console.log('unmounting component');
+      stopListening();
+    };
   }, []);
 
   const _changeView = () => {

@@ -3,6 +3,7 @@
 #import "ChangeViewBridge.h"
 #import <React/RCTLog.h>
 #import "AppDelegate.h"
+#import <React/RCTBridgeModule.h>
 
 @implementation ChangeViewBridge
 
@@ -22,4 +23,5 @@ RCT_EXPORT_METHOD(doSomething:(NSString *)param callback:(RCTResponseSenderBlock
   // Call the callback with a success message and a result object
   callback(@[[NSNull null], @{@"message": @"Success!", @"result": @"some result"}]);
 }
+
 @end
